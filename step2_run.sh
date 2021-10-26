@@ -1,4 +1,4 @@
 pwd=`pwd`
 name=`basename ${pwd}`
 
-docker run -p 8080:8080 -d --name ${name} --network host ${name} 
+docker run -p 80:80 -d --name ${name} --network host ${name} 
